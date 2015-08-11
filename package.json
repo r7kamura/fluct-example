@@ -1,0 +1,8 @@
+{
+  "name": "fluct-example",
+  "private": true,
+  "fluct": {
+    "restapiId": null,
+    "roleArn": null
+  }
+}
