@@ -1,0 +1,10 @@
+{
+  "name": "show_readme",
+  "private": true,
+  "fluct": {
+    "arn": null,
+    "contentType": "text/html",
+    "httpMethod": "GET",
+    "path": "/dummy"
+  }
+}
