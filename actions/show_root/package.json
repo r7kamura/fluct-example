@@ -2,7 +2,7 @@
   "name": "show_root",
   "private": true,
   "fluct": {
-    "arn": null,
+    "arn": "arn:aws:lambda:us-east-1:549958975024:function:show_root",
     "contentType": "text/html",
     "httpMethod": "GET",
     "path": "/"
