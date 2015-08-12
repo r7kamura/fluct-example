@@ -5,6 +5,6 @@
     "arn": null,
     "contentType": "text/html",
     "httpMethod": "GET",
-    "path": "/dummy"
+    "path": "/"
   }
 }
