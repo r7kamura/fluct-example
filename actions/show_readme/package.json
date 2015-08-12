@@ -2,7 +2,7 @@
   "name": "show_readme",
   "private": true,
   "fluct": {
-    "arn": null,
+    "arn": "arn:aws:lambda:us-east-1:549958975024:function:show_readme",
     "contentType": "text/html",
     "httpMethod": "GET",
     "path": "/readme"
