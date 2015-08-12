@@ -1,0 +1,10 @@
+{
+  "name": "show_application_css",
+  "private": true,
+  "fluct": {
+    "arn": "arn:aws:lambda:us-east-1:549958975024:function:show_application_css",
+    "contentType": "text/css",
+    "httpMethod": "GET",
+    "path": "/application-css"
+  }
+}
