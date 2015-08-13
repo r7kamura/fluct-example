@@ -1,0 +1,10 @@
+{
+  "name": "echo_event",
+  "private": true,
+  "fluct": {
+    "arn": "arn:aws:lambda:us-east-1:549958975024:function:echo_event",
+    "contentType": "application/json",
+    "httpMethod": "GET",
+    "path": "/echo"
+  }
+}
