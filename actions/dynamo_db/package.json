@@ -1,0 +1,10 @@
+{
+  "name": "dynamo_db",
+  "private": true,
+  "fluct": {
+    "arn": "arn:aws:lambda:us-east-1:549958975024:function:dynamo_db",
+    "contentType": "text/html",
+    "httpMethod": "GET",
+    "path": "/dynamo_db"
+  }
+}

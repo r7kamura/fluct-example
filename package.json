@@ -6,6 +6,7 @@
     "roleArn": "arn:aws:iam::549958975024:role/fluct-example-rule"
   },
   "dependencies": {
+    "aws-sdk": "^2.1.45",
     "jade": "^1.11.0",
     "marked": "^0.3.5"
   }
