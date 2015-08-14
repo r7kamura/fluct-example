@@ -3,8 +3,11 @@ var crypto = require('crypto');
 var dynamoDB = new AWS.DynamoDB({ region: 'us-east-1' });
 
 /**
- * Note that we need a permission to the dynamodb:putItem action.
- * (e.g. Attatch "AmazonDynamoDBFullAccess" to our role)
+ * Prerequirements:
+ *
+ * - dynamodb:putItem action permission (e.g. "AmazonDynamoDBFullAccess" policy)
+ * - lambda_test table that has id column as its primary key
+ *
  */
 exports.handler = function (event, context) {
   dynamoDB.putItem(
