@@ -1,0 +1,10 @@
+{
+  "name": "create_user",
+  "private": true,
+  "fluct": {
+    "arn": "arn:aws:lambda:us-east-1:549958975024:function:create_user",
+    "contentType": "text/html",
+    "httpMethod": "POST",
+    "path": "/users"
+  }
+}
