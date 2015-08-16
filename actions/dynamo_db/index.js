@@ -1,14 +1,6 @@
 var AWS = require('aws-sdk');
-var crypto = require('crypto');
 var dynamoDB = new AWS.DynamoDB({ region: 'us-east-1' });
 
-/**
- * Prerequirements:
- *
- * - dynamodb:putItem action permission (e.g. "AmazonDynamoDBFullAccess" policy)
- * - lambda_test table that has id column as its primary key
- *
- */
 exports.handler = function (event, context) {
   dynamoDB.putItem(
     {

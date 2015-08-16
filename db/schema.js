@@ -5,12 +5,10 @@ dynamoDb.createTable(
   {
     TableName: 'fluct_example_users',
     KeySchema: [
-      { AttributeName: 'id', KeyType: 'HASH' },
-      { AttributeName: 'name', KeyType: 'RANGE' }
+      { AttributeName: 'id', KeyType: 'HASH' }
     ],
     AttributeDefinitions: [
-      { AttributeName: 'id', AttributeType: 'S' },
-      { AttributeName: 'name', AttributeType: 'S' }
+      { AttributeName: 'id', AttributeType: 'S' }
     ],
     ProvisionedThroughput: {
       ReadCapacityUnits: 1,

@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+  body(data-cookies=cookies data-url=redirectUrl)
+    script.
+      Object.keys(document.body.dataset.cookies).forEach(function (key) {
+        document.cookie = key + '=' + document.body.dataset[key];
+      });
+      location.href = document.body.dataset.url;
